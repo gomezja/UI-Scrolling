@@ -38,7 +38,7 @@
                                     <constraint firstAttribute="height" constant="193" id="mgJ-td-ZkF"/>
                                 </constraints>
                             </imageView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2dm-9b-HYI">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dm-9b-HYI">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </scrollView>
                         </subviews>
@@ -48,11 +48,15 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="VrU-LP-KmI" secondAttribute="bottom" id="7Iu-Ep-JPu"/>
                             <constraint firstItem="CEM-ZH-2bO" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="Bnh-Rn-vdw"/>
                             <constraint firstAttribute="trailing" secondItem="2dm-9b-HYI" secondAttribute="trailing" id="C06-xW-Eek"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2dm-9b-HYI" secondAttribute="bottom" id="XqW-bb-hyq"/>
                             <constraint firstItem="Pnc-kh-5ot" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Y0W-w0-aag"/>
+                            <constraint firstAttribute="trailing" secondItem="2dm-9b-HYI" secondAttribute="trailing" id="Ytg-1z-vLn"/>
                             <constraint firstItem="Pnc-kh-5ot" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZHO-a2-jar"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="2dm-9b-HYI" secondAttribute="bottom" id="cPc-sp-XKN"/>
+                            <constraint firstItem="2dm-9b-HYI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="fQc-2c-T6z"/>
                             <constraint firstItem="2dm-9b-HYI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="lR0-Ce-NLX"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Pnc-kh-5ot" secondAttribute="bottom" id="mJk-z9-gKi"/>
+                            <constraint firstItem="2dm-9b-HYI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="r1w-TX-owV"/>
                             <constraint firstItem="2dm-9b-HYI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sgy-g2-QhU"/>
                             <constraint firstItem="CEM-ZH-2bO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="ubs-0L-fEv"/>
                             <constraint firstAttribute="trailing" secondItem="Pnc-kh-5ot" secondAttribute="trailing" id="wAf-jA-nBH"/>
